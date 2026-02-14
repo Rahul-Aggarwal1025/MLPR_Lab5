@@ -2,7 +2,7 @@
 
 # Face Detection and HSV-Based Clustering using K-Means
 
-This project explores a computer vision pipeline that combines face detection and unsupervised learning. The objective was to detect faces in a group image, extract meaningful color features from each detected face, and cluster them using K Means based on similarity in HSV color space. \
+This project explores a computer vision pipeline that combines face detection and unsupervised learning. The objective was to detect faces in a group image, extract meaningful color features from each detected face, and cluster them using K Means based on similarity in HSV color space. 
 
 Faces were detected using OpenCV’s Haar Cascade classifier after converting images to grayscale. For each detected face, the image was converted to HSV color space and the mean hue and saturation values were computed. These two values formed a 2D feature vector representing each face. K-Means clustering with k = 2 was applied to group faces by minimizing Euclidean distance between data points and cluster centroids.
 
